@@ -1,3 +1,5 @@
+// TODO: style, pagination, navbar, sorting, search,
+
 $(document).ready(function(){
   populatePage();
 });
@@ -17,8 +19,11 @@ function getGifCard(data, i){
     <div class="col-3">
       <div class="card">
         <img id="image${i}" class="gif" src="/images/${data.png}" alt="${data.name}" data-over="/images/${data.gif}" data-leave="/images/${data.png}">
+        <hr>
         <h3> ${data.name} </h3>
-        <p> ${data.date} </p>
+        <div> ${data.date} </div>
+        <hr>
+        <div class="card-tags"> <i class="fa fa-tag" style="margin-right: 5px;"></i> ${data.tags} </div>
       </div>
     </div>`;
   return card;

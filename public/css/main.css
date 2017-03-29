@@ -7,10 +7,31 @@
   background: #f7f7f7;
   box-shadow: 2px 2px 2px #888888;
   border-radius: 5px;
-  height: 275px;
+  height: 290px;
   margin: 3px;
 }
 
 .gif{
+  cursor: pointer;
+}
 
+body hr {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.card-tags {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.landing-title {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.sort-container {
+  margin-top: 25px;
+  text-align: center;
 }
