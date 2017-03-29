@@ -3,7 +3,12 @@
 }
 
 .card{
-
+  text-align: center;
+  background: #f7f7f7;
+  box-shadow: 2px 2px 2px #888888;
+  border-radius: 5px;
+  height: 275px;
+  margin: 3px;
 }
 
 .gif{

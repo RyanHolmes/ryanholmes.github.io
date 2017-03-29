@@ -1,24 +1,34 @@
 $(document).ready(function(){
   populatePage();
-  $.each($(".gif"), function(){
-    $(this).on("mouseover", function(){
-      $(this).attr("src", "/images/2017-03-29-blob-idle.gif");
-    });
-    $(this).on("mouseleave", function(){
-      $(this).attr("src", "/images/2017-03-29-blob-idle.png");
-    });
-  });
 });
 
 function populatePage(){
   $.get("/data", function(data, status){
     data = JSON.parse(data);
     $.each(data, function(e){
-      console.log(data[e]);
+      $('#card-container').append(getGifCard(data[e], e));
+      addHoverHandler(e);
     });
   });
 };
 
-function getGifCard(data){
+function getGifCard(data, i){
+  var card = `
+    <div class="col-3">
+      <div class="card">
+        <img id="image${i}" class="gif" src="/images/${data.png}" alt="${data.name}" data-over="/images/${data.gif}" data-leave="/images/${data.png}">
+        <h3> ${data.name} </h3>
+        <p> ${data.date} </p>
+      </div>
+    </div>`;
+  return card;
+};
 
+function addHoverHandler(id){
+  $(`#image${id}`).on("mouseover", function(){
+    $(this).attr("src", $(this).data("over"));
+  });
+  $(`#image${id}`).on("mouseleave", function(){
+    $(this).attr("src", $(this).data("leave"));
+  });
 };
