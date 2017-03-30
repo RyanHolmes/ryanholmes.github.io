@@ -12,5 +12,12 @@
      "gif": "2017-03-29-blob-move.gif",
      "tags": "blob, movement, green, cute",
      "date": "March 29th, 2017"
+  },
+  {
+	   "name": "Blob Jump",
+     "png": "2017-03-29-blob-idle.png",
+     "gif": "2017-03-30-blob-jump.gif",
+     "tags": "blob, jump, green, cute",
+     "date": "March 30th, 2017"
   }
 ]
