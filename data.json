@@ -1,5 +1,13 @@
 [
   {
+     "name": "Jump Improved",
+     "png": "2017-03-29-blob-idle.png",
+     "gif": "2017-03-31-blob-jump.gif",
+     "tags": "blob, jump, green, cute, improved",
+     "date": "March 31th, 2017",
+     "size": [32,32]
+  },
+  {
      "name": "Spinning Block",
      "png": "2017-03-31-spinning-block.png",
      "gif": "2017-03-31-spinning-block.gif",
