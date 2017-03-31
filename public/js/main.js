@@ -22,8 +22,8 @@ function getGifCard(data, i){
         <hr>
         <h3> ${data.name} </h3>
         <div> ${data.date} </div>
-        <hr>
-        <div class="card-tags"> <i class="fa fa-tag" style="margin-right: 5px;"></i> ${data.tags} </div>
+        <!-- <hr>
+        <div class="card-tags"> <i class="fa fa-tag" style="margin-right: 5px;"></i> ${data.tags} </div> -->
       </div>
     </div>`;
   return card;

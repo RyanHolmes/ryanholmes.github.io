@@ -1,5 +1,13 @@
 [
   {
+     "name": "Colored Spinning Block",
+     "png": "2017-03-31-spinning-block-color-2.png",
+     "gif": "2017-03-31-spinning-block-color-2.gif",
+     "tags": "block, spin, colored",
+     "date": "March 31th, 2017",
+     "size": [32,32]
+  },
+  {
      "name": "Jump Improved",
      "png": "2017-03-29-blob-idle.png",
      "gif": "2017-03-31-blob-jump.gif",
@@ -11,7 +19,7 @@
      "name": "Spinning Block",
      "png": "2017-03-31-spinning-block.png",
      "gif": "2017-03-31-spinning-block.gif",
-     "tags": "block, spin, outline",
+     "tags": "block, spin, outline, black and white",
      "date": "March 31th, 2017",
      "size": [32,32]
   },
