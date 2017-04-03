@@ -5,70 +5,79 @@
      "gif": "2017-04-02-random-idle.gif",
      "tags": "random, idle, character, anti-aliasing",
      "date": "April 2nd, 2017",
-     "size": [32,32]
+     "size": [32,32],
+     "action": "play"
   },
   {
      "name": "Run #1",
      "png": "2017-04-01-stick-walk.png",
      "gif": "2017-04-01-stick-walk.gif",
-     "tags": "Stickman, run",
+     "tags": "Stickman, run, charcter",
      "date": "April 2nd, 2017",
-     "size": [32,32]
+     "size": [32,32],
+     "action": "play"
   },
   {
      "name": "Fire, Attempt #1",
      "png": "2017-03-31-fire-attempt-1.png",
      "gif": "2017-03-31-fire-attempt-1.gif",
-     "tags": "fire, wind",
+     "tags": "fire, wind, sparks, effect",
      "date": "March 31th, 2017",
-     "size": [32,32]
+     "size": [32,32],
+     "action": "play"
   },
   {
      "name": "Relic #1",
      "png": "2017-03-31-spinning-block-color-2.png",
      "gif": "2017-03-31-spinning-block-color-2.gif",
-     "tags": "block, spin, colored",
+     "tags": "block, spin, colored, item",
      "date": "March 31th, 2017",
-     "size": [32,32]
+     "size": [32,32],
+     "action": "play"
   },
   {
      "name": "Jump Improved",
      "png": "2017-03-29-blob-idle.png",
      "gif": "2017-03-31-blob-jump.gif",
-     "tags": "blob, jump, green, cute, improved",
+     "tags": "blob, jump, green, cute, improved, character",
      "date": "March 31th, 2017",
-     "size": [32,32]
+     "size": [32,32],
+     "action": "play"
   },
   {
      "name": "Spinning Block",
      "png": "2017-03-31-spinning-block.png",
      "gif": "2017-03-31-spinning-block.gif",
-     "tags": "block, spin, outline, black and white",
+     "tags": "block, spin, outline, black and white, item",
      "date": "March 31th, 2017",
-     "size": [32,32]
+     "size": [32,32],
+     "action": "play"
   },
   {
 	   "name": "Blob Jump",
      "png": "2017-03-29-blob-idle.png",
      "gif": "2017-03-30-blob-jump.gif",
-     "tags": "blob, jump, green, cute",
+     "tags": "blob, jump, green, cute, character",
      "date": "March 30th, 2017",
-     "size": [32,32]
+     "size": [32,32],
+     "action": "play"
   },
   {
 	   "name": "Blob Bounce",
      "png": "2017-03-29-blob-idle.png",
      "gif": "2017-03-29-blob-idle.gif",
-     "tags": "blob, idle, green, cute",
+     "tags": "blob, idle, green, cute, character",
      "date": "March 29th, 2017",
-     "size": [32,32]
+     "size": [32,32],
+     "action": "play"
   },
   {
 	   "name": "Blob Slide",
      "png": "2017-03-29-blob-move.png",
      "gif": "2017-03-29-blob-move.gif",
-     "tags": "blob, movement, green, cute",
+     "tags": "blob, movement, green, cute, character",
      "date": "March 29th, 2017",
-     "size": [32,32]
+     "size": [32,32],
+     "action": "play"
   }
 ]
