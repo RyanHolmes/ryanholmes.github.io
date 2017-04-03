@@ -12,6 +12,9 @@
 }
 
 .gif{
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
   cursor: pointer;
 }
 
@@ -29,6 +32,7 @@ body hr {
 .landing-title {
   margin-top: 40px;
   text-align: center;
+  font-family: 'Press Start 2P';
 }
 
 .sort-container {

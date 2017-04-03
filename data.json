@@ -1,6 +1,30 @@
 [
   {
-     "name": "Colored Spinning Block",
+     "name": "Random Idle",
+     "png": "2017-04-02-random-idle.png",
+     "gif": "2017-04-02-random-idle.gif",
+     "tags": "random, idle, character, anti-aliasing",
+     "date": "April 2nd, 2017",
+     "size": [32,32]
+  },
+  {
+     "name": "Run #1",
+     "png": "2017-04-01-stick-walk.png",
+     "gif": "2017-04-01-stick-walk.gif",
+     "tags": "Stickman, run",
+     "date": "April 2nd, 2017",
+     "size": [32,32]
+  },
+  {
+     "name": "Fire, Attempt #1",
+     "png": "2017-03-31-fire-attempt-1.png",
+     "gif": "2017-03-31-fire-attempt-1.gif",
+     "tags": "fire, wind",
+     "date": "March 31th, 2017",
+     "size": [32,32]
+  },
+  {
+     "name": "Relic #1",
      "png": "2017-03-31-spinning-block-color-2.png",
      "gif": "2017-03-31-spinning-block-color-2.gif",
      "tags": "block, spin, colored",
