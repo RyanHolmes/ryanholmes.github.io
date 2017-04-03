@@ -2,6 +2,7 @@
 // Types: character, item, effect, environment
 // Actions: Play, enlarge
 $(document).ready(function(){
+  $('.sidebar').height($(document).height());
   populatePage();
 });
 
@@ -26,7 +27,7 @@ function getGifCard(data, i){
   var card = `
     <div class="col-3">
       <div class="card">
-        <img id="image${i}" class="gif" src="/images/${data.png}" alt="${data.name}" data-over="/images/${data.gif}" data-leave="/images/${data.png}">
+        <img id="image${i}" class="card-image" src="/images/${data.png}" alt="${data.name}" data-over="/images/${data.gif}" data-leave="/images/${data.png}">
         <h3> ${data.name} </h3>
         <div> ${data.date} </div>
       </div>
